@@ -9,11 +9,16 @@ button {
 	padding: 0 14px;
 }
 button:hover {
-	background: #00376b;
+	background: #60b7f0;
 }
 
 .selected {
 	background: #00376b;
 	border-color: #00376b;
 	cursor: default;
+}
+
+.selected:hover {
+	background: #0054a3;
+	border-color: #00376b;
 }
