@@ -1,0 +1,58 @@
+.media {
+    margin: 19px auto 0;
+    padding: 0;
+    text-align: center;
+    width: 293px;
+    list-style: none;
+}
+
+.media li {
+    line-height: 20px;
+    margin: 28px 0 0;
+    width: 293px;
+}
+
+.media li:hover {
+    opacity: 0.5;
+}
+
+.media li img,
+.media li video {
+    height: 293px;
+    width: 293px;
+
+}
+
+.media li video:focus {
+    outline: none;
+}
+
+.media li h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 0;
+}
+
+@media (min-width: 768px) {
+    .media {
+        width: 642px;
+        overflow: hidden;
+    }
+
+    .media li {
+        float: left;
+        height: 293px;
+        margin: 14px;
+    }
+
+    .media li h2 {
+        display: none;
+    }
+}
+
+@media (min-width: 1281px) {
+    .media {
+        width: 963px;
+        overflow: hidden;
+    }
+}

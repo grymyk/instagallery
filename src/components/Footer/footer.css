@@ -1,0 +1,12 @@
+a {
+	color: #000;
+}
+.email {
+
+	margin: 96px 42px 28px 0;
+	text-align: right;
+}
+
+a:hover {
+	text-decoration: none;
+}

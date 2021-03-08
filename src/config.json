@@ -1,0 +1,12 @@
+{
+  "hackerNewsApi": {
+    "host": "https://hn.algolia.com/api/v1/search",
+    "query": "vue"
+  },
+
+  "instagram": {
+    "host": "https://graph.instagram.com/me/media",
+    "fields": "id,caption,media_type,media_url",
+    "access token": "IGQVJYM0dwTVk5ZAUhBSFFtOGVTVV9wdjJqMU5zWGNJQ2c1WWgyOUJsdGg4QUU4aUNRTUNUWWxpZATIyLXphdHliLTVwUHpkOEMzcmdidmFpSzJoTk1EcGF0MFdsTl9GTk8zMVZATNF9B"
+  }
+}
