@@ -19,12 +19,12 @@ function Selector(props) {
         value: 2
     }];
 
-    btns.map((btn) => btn.clickHandler = clickHandler);
-
     btns[selected]['cls'] = btnCls;
 
     return (
-        <div className = "selector">
+        <div className = "selector"
+            onClick = { clickHandler }
+        >
             {
                 btns.map( (btn) => {
                     return <TypeBtn

@@ -9,7 +9,7 @@ function TypeBtn(props) {
         <>
             <button
                 className = { cls }
-                onClick = { clickHandler }
+                // onClick = { clickHandler }
                 type = "button"
                 value = { value }
             >{ title }</button>
